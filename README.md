@@ -8,12 +8,11 @@ A **graph** is a collection of nodes which stores data and edges which represent
 A graph is an ordered pair G = (V,E) comprising a set of vertices or nodes, and a collection of pairs of vertices from V, which are called "edges" of the graph.
 
 V = { 1, 2, 3, 4, 5, 6 }
+
 E = { (1, 4), (1, 6), (2, 6), (4, 5), (5, 6) }
 
 
-### How are graphs used in programming?
-
-
+## How are graphs used in programming?
 ### Examples of graph implementation
 Google Maps: locations on a map, starting/end point - can be directed or undirected
 Facebook: friends (undirected graph), likes (directed)
@@ -26,7 +25,7 @@ Where v = number of nodes (vertices)
 And e = number of edges (paths between vertices)
 
 
-### Breadth-First Search
+## Breadth-First Search
 Breadth-first search (BFS) is a method for exploring a tree or graph. In a BFS, you first explore all the nodes one step away, then all the nodes two steps away, etc.
 
 Breadth-first search is like throwing a stone in the center of a pond. The nodes you explore "ripple out" from the starting point.
@@ -40,7 +39,7 @@ Disadvantages:
 A BFS on a binary tree generally requires more memory than a DFS.
 
 
-### Depth-First Search
+## Depth-First Search
 Depth-first search (DFS) is a method for exploring a tree or graph. In a DFS, you go as deep as possible down one path before backing up and trying a different one.
 
 Depth-first search is like walking through a corn maze. You explore one path, hit a dead end, and go back and try a different one.
@@ -53,7 +52,7 @@ Disadvantages:
 A DFS doesn't necessarily find the shortest path to a node, while breadth-first search does.
 
 
-### Possible interview questions related to graphs
+## Possible interview questions related to graphs
 1. Is there a path between two nodes in this undirected graph? Run DFS or BFS from one node and see if you reach the other one.
 
 2. What's the shortest path between two nodes in this undirected, unweighted graph? Run BFS from one node and backtrack once you reach the second. Note: BFS always finds the shortest path, assuming the graph is undirected and unweighted. DFS does not always find the shortest path.
