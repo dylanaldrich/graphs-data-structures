@@ -64,7 +64,7 @@ A DFS doesn't necessarily find the shortest path to a node, while breadth-first 
 ### Resources
 https://www.interviewcake.com/concept/java/graph
 https://medium.com/techie-delight/graph-data-structure-interview-questions-and-practice-problems-22d5cd488855
-https://www.cs.usfca.edu/~galles/visualization/BFS.h
+https://www.cs.usfca.edu/~galles/visualization/BFS.html
 https://www.cs.usfca.edu/~galles/visualization/DFS.html
 https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
 https://www.interviewcake.com/question/python/balanced-binary-tree
